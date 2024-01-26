@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="Home"
+        android:icon="@drawable/icon_home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_weather"
+        android:orderInCategory="200"
+        android:title= "Weather"
+        android:icon="@drawable/cloud_black"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_none"
+        android:orderInCategory="300"
+        android:title=""
+        app:showAsAction="always"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/action_news"
+        android:orderInCategory="400"
+        android:title="News"
+        android:icon="@drawable/icon_newspaper"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="500"
+        android:title="@string/action_settings"
+        android:icon="@drawable/icon_settings"
+        app:showAsAction="always"/>
+</menu>
